@@ -1,0 +1,48 @@
+
+.aihero-1-wrapper {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  max-width: unset; /* Ensure full width */
+}
+
+.aihero-1 {
+  position: relative;
+  min-height: 100vh; /* Full viewport height */
+  background-image: url('./media_120d28e2556ac0621b3c145063edf536f867744d8.png?width=2000&format=png&optimize=medium');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.aihero-1 picture {
+  display: none; /* Hide picture element */
+}
+
+.aihero-1 img {
+  display: none; /* Hide img element */
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row; /* Ensure buttons are side by side */
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+  padding: 10px 0;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.button {
+  background-color: #002366; /* Dark blue background */
+  color: white;
+  padding: 15px 30px; /* Increased padding for better visibility */
+  text-align: center;
+  flex: 1; /* Evenly distribute space among buttons */
+  margin: 5px; /* Small margin between buttons */
+  box-sizing: border-box; /* Ensure padding and margin are included in width */
+}
