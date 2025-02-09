@@ -1,0 +1,48 @@
+
+.aifooter-wrapper {
+  background-color: #e0e0e0; /* light gray background color */
+  padding: 20px; /* optional padding */
+}
+
+.aifooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 24px 24px;
+}
+
+.aifooter > div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%; /* Ensure it spans the full width */
+}
+
+.aifooter .logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* spacing between the logo and the text */
+}
+
+.aifooter .text-group {
+  display: flex;
+  flex-direction: column; /* Ensure text items within the group are stacked vertically */
+  align-items: flex-start;
+  margin-right: 40px; /* spacing between text groups */
+}
+
+.aifooter .text-group div {
+  margin-bottom: 10px; /* spacing between text items within the group */
+}
+
+.aifooter .text-group:last-child {
+  margin-right: 0; /* no margin for the last text group */
+}
+
+@media (min-width: 900px) {
+  .aifooter {
+    padding: 40px 32px 24px;
+  }
+}
